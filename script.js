@@ -20,7 +20,9 @@ const memories = [
   ['swati di and jyoti di.webp', 'Abu Dhabi With Jyoti Di ❤️'],
   ['with sarah.jpg', ' With Sarah😁 Di ❤️'],
   ['with sunny dada.jpg', ' With Sunny Dada ❤️'],
-  ['With sisters.jpg', ' With Sisters❤️']
+  ['With sisters.jpg', ' With Sisters❤️'],
+  ['NKCM9748 - Copy.jpg', ' With Rosho and jyoti Di❤️']
+  
 ];
 const ratios = ['4 / 5','5/5', '1 / 1', '5 / 4', '3 / 4','3/7','16/9'];
 const photos = [];
