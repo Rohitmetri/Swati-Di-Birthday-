@@ -1,0 +1,5 @@
+portrait.jpg — front-page circular portrait of Swati Didi
+about.jpg — optional second portrait (uses portrait.jpg if absent)
+memory-01.jpg through memory-10.jpg — gallery photos
+Use the exact lowercase filenames. Use real JPEG images, or change the
+filenames in index.html and script.js to match your actual extensions.
