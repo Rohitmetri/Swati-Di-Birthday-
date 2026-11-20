@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0d0919">
+<title>Happy Birthday, Swati Didi ♡</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to celebration</a>
+<header class="top">
+  <a class="brand" href="#home"><span class="brand-heart" aria-hidden="true">♥</span>Swati Di</a>
+  <nav aria-label="Birthday sections"><a href="#memories">Memories</a><a href="#surprises">Surprises</a><a href="#letter">Letter</a></nav>
+  <details class="music">
+    <summary>♫ <span>Music</span></summary>
+    <div class="music-panel">
+      <button id="music-play" type="button" aria-pressed="false">Play music</button>
+      <label class="check"><input id="click-sounds" type="checkbox"> Soft click sounds</label>
+      <p id="music-status" role="status"></p>
+    </div>
+  </details>
+</header>
+
+<main id="main">
+<section class="hero wrap" id="home" aria-labelledby="birthday-title">
+  <div class="portrait-stage">
+    <div class="portrait-float">
+      <div class="pulse" aria-hidden="true"></div><div class="halo" aria-hidden="true"></div>
+      <div class="orbit" aria-hidden="true"><span>✦</span><span>♡</span><span>✚</span></div>
+      <figure class="portrait">
+        <img data-photo="portrait.webp" alt="Swati Didi" fetchpriority="high">
+      </figure>
+      <span class="spark spark-a" aria-hidden="true">✧</span><span class="spark spark-b" aria-hidden="true">♡</span><span class="spark spark-c" aria-hidden="true">✦</span>
+    </div>
+  </div>
+  <div class="hero-copy">
+    <p class="kicker">✦ &nbsp; A little celebration for someone extraordinary.</p>
+    <h1 id="birthday-title"><span>Happy Birthday</span><em>Swati Didi<sup>♡</sup></em></h1>
+    <p class="subtitle">“An amazing soul, a beautiful heart, and a wonderful doctor.”</p>
+    <p class="today"><span aria-hidden="true"></span> Today we celebrate you</p>
+    <div class="actions"><a class="btn solid" href="#memories">Explore Your Memories <span aria-hidden="true">↓</span></a><a class="btn" href="#surprises">Open Your Surprise <span aria-hidden="true">↗</span></a></div>
+  </div>
+  <span class="hero-caption">With love, Rohit</span>
+</section>
+
+<section class="section wrap about" id="about" aria-labelledby="about-title">
+  <figure class="about-photo reveal"><img data-photo="about.jpg" data-fallback="portrait.jpg" alt="Swati Didi" loading="lazy"><img class="photo-charm" src="assets/icons/stethoscope.svg" alt="" loading="lazy"></figure>
+  <div class="reveal">
+    <p class="kicker">The person we’re celebrating</p>
+    <h2 id="about-title">A Little About <em>Someone Special</em></h2>
+    <p>Didi, I admire the warmth you bring to the people around you. You have a caring heart, a way of making people feel at ease, and a smile that makes the day a little lighter.</p>
+    <p>Your journey as a doctor takes dedication and hard work. I’m proud of the care you bring to it and grateful I get to call you my sister.</p>
+  </div>
+</section>
+
+<section class="section memories" id="memories" aria-labelledby="memories-title">
+  <div class="wrap">
+    <div class="section-head reveal"><p class="kicker">Our photo album</p><h2 id="memories-title">Beautiful Memories, <em>Endless Smiles</em></h2><p>Tap a photo to open the album.</p></div>
+    <div id="gallery" class="gallery"></div>
+  </div>
+</section>
+
+<section class="section tribute" id="doctor" aria-labelledby="doctor-title">
+  <div class="wrap">
+    <div class="tribute-top">
+      <div class="medical-art reveal" aria-hidden="true">
+        <img src="assets/icons/stethoscope.svg" alt="" loading="lazy"><span class="med-cross">✚</span><span class="med-heart">♡</span>
+        <svg class="ecg" viewBox="0 0 240 48"><path d="M0 27h55l10-10 12 18 15-32 14 42 15-18h119"/></svg>
+      </div>
+      <div class="reveal"><p class="kicker">A tribute to the doctor I admire</p><h2 id="doctor-title">Not All Heroes <em>Wear Capes</em></h2><blockquote>“Behind every doctor's white coat is a heart that cares, hands that heal, and a soul that makes a difference.”</blockquote></div>
+    </div>
+    <div class="three tribute-cards">
+      <article class="glass reveal"><span aria-hidden="true">♡</span><h3>Heart of Gold</h3><p>For the kindness you show and the care you give so freely.</p></article>
+      <article class="glass reveal"><span aria-hidden="true">✚</span><h3>Healing Hands</h3><p>For your dedication to helping others, even on the long days.</p></article>
+      <article class="glass reveal"><span aria-hidden="true">✦</span><h3>Dreams &amp; Purpose</h3><p>May each step in your journey bring you the joy and success you deserve.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="surprises" aria-labelledby="surprise-title">
+  <div class="section-head reveal"><p class="kicker">Wrapped with love</p><h2 id="surprise-title">A Few Little <em>Surprises</em></h2><p>Open them in any order.</p></div>
+  <div class="three surprises">
+    <article class="glass reveal">
+      <div class="surprise-art" aria-hidden="true"><div class="envelope"><i></i><b>♥</b></div></div>
+      <h3>The Secret Envelope</h3><button class="btn unwrap" data-surprise="envelope">Open envelope</button>
+    </article>
+    <article class="glass reveal">
+      <div class="surprise-art" aria-hidden="true"><div class="gift"><i></i><b></b></div></div>
+      <h3>Birthday Gift Box</h3><button class="btn unwrap" data-surprise="gift">Unwrap gift</button>
+    </article>
+    <article class="glass reveal">
+      <div class="surprise-art" aria-hidden="true"><div class="cake"><span><i></i></span><span><i></i></span><span><i></i></span></div></div>
+      <h3>Make a Wish</h3><button class="btn unwrap" data-surprise="cake">Blow out candles</button>
+    </article>
+  </div>
+  <div class="coupons reveal"><h3>Birthday Coupons</h3><p>Pick a treat and save it for a day you need a smile.</p><div id="tickets" class="tickets"></div></div>
+</section>
+
+
+
+
+<section class="section letter-section" id="letter" aria-labelledby="letter-title">
+  <div class="wrap">
+    <article class="letter reveal">
+      <p class="kicker">A little note for you 💌</p>
+      <h2 id="letter-title">A Message From <em>Your Little Brother ♡</em></h2>
+
+      <div class="letter-text">
+        <p>Dear Swati Didi, ❤️</p>
+
+        <p>
+          Happy Birthday, Didi! 🎂🥳 Wishing you a year filled with
+          happiness, laughter, success and beautiful memories.
+        </p>
+
+        <p>
+          May God bless you with good health, endless joy and everything
+          you've been wishing for. Keep smiling, keep shining and
+          enjoy every moment of your special day! 🌸✨
+        </p>
+
+        <p>
+          No matter how old we grow, I'll always be your little brother,
+          cheering for you and annoying you as always! 😄❤️
+        </p>
+
+        <p>Lots of love and best wishes! 💖</p>
+
+        <p>
+          With love,<br>
+          <em>Your Rohit ❤️</em>
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+
+<section class="section blessing" id="blessing" aria-labelledby="blessing-title">
+  <div class="wrap reveal">
+    <div class="cross" aria-hidden="true">✝</div>
+    <h2 id="blessing-title">A Birthday <em>Blessing</em></h2>
+    <blockquote>“She is clothed with strength and dignity; she can laugh at the days to come.”<cite>— Proverbs 31:25</cite></blockquote>
+    <p>God, thank You for Swati Didi. Please bless her with good health, peace in busy seasons, and joy in this new year of her life. Guide her as she cares for others, and surround her with people who care for her. Amen.</p>
+  </div>
+</section>
+
+<section class="section finale" id="finale" aria-labelledby="final-title">
+  <div class="wrap reveal">
+    <div class="celebration-stage" aria-hidden="true">
+      <div class="stage-hearts"><span>♥</span><span>♡</span><span>♥</span><span>♡</span><span>♥</span><span>♡</span></div>
+      <div class="layer-cake">
+        <div class="cake-candles"><span></span><span></span><span></span></div>
+        <div class="cake-tier cake-tier-top"><span>♡</span></div>
+        <div class="cake-tier cake-tier-base"><span>· ♥ ·</span></div>
+        <div class="cake-plate"></div>
+      </div>
+    </div>
+    <div class="goodbye"><img src="assets/characters/bear.svg" alt="" loading="lazy"><span class="wave" aria-hidden="true"></span></div>
+    <p class="kicker">One more wish from your little brother</p>
+    <h2 id="final-title">Happy Birthday, <em>Swati Didi!</em></h2>
+    <p>May your life always be filled with love, laughter, blessings and beautiful memories.</p>
+    <div class="actions"><button class="btn solid" id="celebrate">Celebrate with cake ✦</button><button class="btn" id="replay">Replay surprise ↺</button></div>
+  </div>
+</section>
+</main>
+<footer>Made with love by Rohit <span aria-hidden="true">♡</span></footer>
+
+<dialog id="lightbox" aria-labelledby="photo-caption">
+  <div class="dialog-top"><span id="photo-count"></span><button class="icon close" aria-label="Close photo">×</button></div>
+  <img id="lightbox-img" alt="">
+  <div class="photo-controls"><button class="icon" id="previous" aria-label="Previous photo">←</button><div><p id="photo-caption"></p><p id="photo-date" hidden></p></div><button class="icon" id="next" aria-label="Next photo">→</button></div>
+</dialog>
+<dialog id="popup" aria-labelledby="popup-title">
+  <div class="dialog-top"><button class="icon close" aria-label="Close surprise">×</button></div>
+  <img class="popup-bear" src="assets/characters/bear.svg" alt="">
+  <h2 id="popup-title"></h2><p id="popup-message"></p>
+  <button id="claim" class="btn solid" hidden>Redeem coupon</button>
+</dialog>
+<canvas id="celebration" aria-hidden="true"></canvas>
+<!-- Change the src below to your own track in assets/music/. -->
+<audio id="birthday-audio" src="assets/music/birthday.wav" preload="none" loop></audio>
+</body>
+</html>
